@@ -39,7 +39,7 @@
 		position : function() {
 			var w = parseInt(this.$element.width()), is = this.items.filter(function() {
 				return $(this).data('dylay');
-			}), l = is.length, i = w + 1, hs = [], j, _x = 0;
+			}), l = is.length, i = w + 1, hs = [], _x = 0;
 			while (i--)
 				hs[i] = 0;
 			for (i = 0; i < l; i++) {
